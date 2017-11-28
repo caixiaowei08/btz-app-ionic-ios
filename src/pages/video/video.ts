@@ -269,8 +269,6 @@ export class VideoPage {
     }
     if (v.paused) {
       v.play();
-    } else if (v.played) {
-      v.pause();
     }
 
   }

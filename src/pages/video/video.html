@@ -2,7 +2,7 @@
   <ion-navbar>
     <ion-title>{{title}}</ion-title>
   </ion-navbar>
-  <video id="video" [src]="url" class="video-js vjs-big-play-centered" (timeupdate)="getJd($event)" preload="auto" (canplay)="canPlay($event)"
+  <video id="video" [src]="url" tappable class="video-js vjs-big-play-centered" (timeupdate)="getJd($event)" preload="auto" (canplay)="canPlay($event)"
          controls="controls" controlsList="nodownload">
   </video>
   <ion-segment [(ngModel)]="seg">
